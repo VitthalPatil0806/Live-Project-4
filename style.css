@@ -1,0 +1,64 @@
+img[src="./assets/Logo.png"]{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:18%;
+    max-width: 35%;
+    margin-top: -3%;
+    list-style-type: none;
+    color: #8f9396;
+}
+.list:hover{
+    color: #000000;
+}
+.list{
+    cursor: pointer;
+}
+.button-group{
+    margin-left: 85%;
+    margin-top: -3%;
+}
+.nav-button{
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 60px;
+    background-color: #742af3;
+    border-radius: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.heading-text{
+    margin-top: 10%;
+    font-size: 80px;
+    overflow-wrap: break-word;
+    color: #220c4a;
+    margin-left: 60px;
+}
+span{
+    color: #5c18d1;
+}
+
+span::after{
+    content: "\a";
+    white-space: pre;
+}
+span::before{
+    content: "\a";
+    white-space: pre;
+}
+
+p {
+    white-space: pre;
+    font-size: large;
+    margin-top: -60px;
+    color: #8f9396;
+}
+img[src="./assets/Header Illustration.png"]{
+    margin-left: 630px;
+    margin-top: -500px;
+}
